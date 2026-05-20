@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Box CSS</title>
+    <style>
+        /* Ini adalah bagian CSS untuk menghias kotak */
+        .kotak-profil {
+            background-color: rgb(189, 182, 253); /* Warna latar */
+            width: 500px;               /* Lebar kotak */
+            padding: 20px;              /* Jarak di dalam kotak */
+            border: 5px solid rgb(174, 174, 228);     /* Garis pinggir */
+            border-radius: 50px;        /* Membuat sudut melengkung */
+            text-align: center;         /* Teks di tengah */
+            margin: 50px auto;          /* Kotak berada di tengah halaman */
+            font-family: sans-serif;
+        }
+
+        .foto-dummy {
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 15px;
+            object-fit: cover;
+            border-radius: 0%;         /* Membuat lingkaran */
+            line-height: 100px;         /* Agar teks di tengah lingkaran */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kotak-profil">
+       <img src= "Foto Alya.png" class=".foto-dummy">
+        <h1>Alya Fauzia Azzahra</h1>
+        <p>Nontoon film</p>
+        <button>Klik profilku</button>
+    </div>
+
+</body>
+</html>
